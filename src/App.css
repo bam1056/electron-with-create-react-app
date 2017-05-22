@@ -1,0 +1,93 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}*/
+
+body {
+  background-color: #9999ff;
+  color: white;
+}
+
+.card {
+  border: solid 1px #53565A;
+  border-radius: 3px;
+  height: 175px;
+  width: 175px;
+  text-align: center;
+  line-height: 100px;
+  margin: 5px;
+  box-shadow: 0px 7px 5px black;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 75vw;
+  border: 0 auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('http://www.highreshdwallpapers.com/wp-content/uploads/2013/03/Middle-Earth.jpg');
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 7em;
+  color: #D1A55A;
+  text-shadow: 6px 6px 10px black;
+}
+
+.Home img {
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.Win {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Win button {
+  background-color: #D1A55A;
+  font-size: 32px;
+}
+
+footer {
+  color: #EDC078;
+  font-size: 1.5em;
+  opacity: .65;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+footer h5 {
+  margin-bottom: 0;
+}
